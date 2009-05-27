@@ -1,20 +1,20 @@
-Summary:	Microcode image for Intel Wireless WiFi Link 5000AGN Adapter
-Summary(pl.UTF-8):	Obraz mikrokodu dla układów bezprzewodowych Intel Wireless WiFi Link 5000AGN
-%define	_module	5000
+Summary:	Microcode image for Intel Wireless WiFi Link 5150AGN Adapter
+Summary(pl.UTF-8):	Obraz mikrokodu dla układów bezprzewodowych Intel Wireless WiFi Link 5150AGN
+%define	_module	5150
 Name:		iwlwifi-%{_module}-ucode
-Version:	8.24.2.12
+Version:	8.24.2.2
 Release:	1
 License:	distributable
 Group:		Base/Kernel
 Source0:	http://www.intellinuxwireless.org/iwlwifi/downloads/%{name}-%{version}.tgz
-# Source0-md5:	45f74d052d52f6f473dc7a8d412f2274
+# Source0-md5:	f9cee16e455e8046b1bf62c93f882d5d
 URL:		http://www.intellinuxwireless.org/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The file provided in this package must be present on your system in order
-for the Intel Wireless WiFi Link 5000AGN driver for Linux (iwlwifi-%{_module})
+for the Intel Wireless WiFi Link 5150AGN driver for Linux (iwlwifi-%{_module})
 to operate on your system.
 
 On adapter initialization, and at varying times during the uptime of
@@ -28,7 +28,7 @@ interest given the current operating mode of the device.
 %description -l pl.UTF-8
 Plik dostarczany przez ten pakiet jest wymagany w systemie do działania
 linuksowego sterownika dla układów bezprzewodowych Intel Wireless WiFi
-Link 5000AGN (iwlwifi-%{_module}).
+Link 5150AGN (iwlwifi-%{_module}).
 
 Przy inicjalizacji układu i w różnych chwilach w trakcie jego
 działania mikrokod jest wczytywany do pamięci RAM układu. Mikrokod
