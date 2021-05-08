@@ -1,9 +1,10 @@
+# NOTE: currently it's included in linux-firmware.spec
 Summary:	Microcode image for Intel Wireless WiFi Link 5150AGN Adapter
 Summary(pl.UTF-8):	Obraz mikrokodu dla układów bezprzewodowych Intel Wireless WiFi Link 5150AGN
 %define	_module	5150
 Name:		iwlwifi-%{_module}-ucode
 Version:	8.24.2.2
-Release:	1
+Release:	1.1
 License:	distributable
 Group:		Base/Kernel
 Source0:	http://www.intellinuxwireless.org/iwlwifi/downloads/%{name}-%{version}.tgz
